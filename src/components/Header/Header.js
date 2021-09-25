@@ -1,9 +1,14 @@
 import React from 'react';
+import './Header.css'
 
 const Header = () => {
          return (
                   <div>
-                         <h1>Hello world</h1>  
+                           <div className="container header-container text-center">
+                           <h1>Make world lagest website : Web Guardian</h1>
+                           <h6>We try to create the most popular and largest website, Read on to discover the most popular websites around the world</h6>
+                           <h1>Total Budget: 900 Million</h1>
+                           </div>
                   </div>
          );
 };
