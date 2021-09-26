@@ -15,9 +15,10 @@ const DeveloperCart = (props) => {
 
          return (
                   <div>
+                           <div className="cart-calculation">
                            <h4 className="text-center mb-4 fw-bold">Cart Summary</h4>
                            <h6 className="fw-bold mb-3">{userIcon} Devaloper Add: {developerCart.length}</h6>
-                           <h6 className="fw-bold mb-4">{totalIcon} Total Cost: {total}</h6>
+                           <h6 className="fw-bold mb-4">{totalIcon} Total Cost: {total}</h6></div>
                            <h6 className="text-center mt-3">Selected Developer</h6>
                            <hr className="lineStyle"/>
                            <ul>
