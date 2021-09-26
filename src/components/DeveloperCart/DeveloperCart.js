@@ -22,7 +22,7 @@ const DeveloperCart = (props) => {
                            <hr className="lineStyle"/>
                            <ul>
                                     {
-                                    developerCart.map(cart => <li>{cart.name}</li>)
+                                    developerCart.map(cart => <li className="fw-bold">{cart.name}</li>)
                                     }
                            </ul>
                   </div>
