@@ -6,6 +6,7 @@
 .cart-img{
          width: 110px;
          clip-path: circle();
+         object-fit: cover;
 }
 .cart-style{
          box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);

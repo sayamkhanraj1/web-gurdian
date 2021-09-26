@@ -25,7 +25,7 @@ const DeveloperCart = (props) => {
                                     {
                                     developerCart.map(cart => <div class="card mb-3 cart-style">
                                     <div class="row g-0">
-                                      <div class="col-md-4">
+                                      <div class="col-md-4 d-flex justify-content-center align-items-center">
                                         <img className="cart-img" src={cart.img} alt="..."/>
                                       </div>
                                       <div class="col-md-8">
