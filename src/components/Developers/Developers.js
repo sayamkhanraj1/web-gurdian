@@ -5,7 +5,7 @@ import './Developers.css'
 
 
 const Developers = (props) => {
-         const {name, sellery, img, experienceYear, achievement, country} = props.developer || {};
+         const {name, salary, img, experienceYear, achievement, country} = props.developer || {};
          // react font awesome 
          const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />
          return (
@@ -17,7 +17,7 @@ const Developers = (props) => {
          <h6> Achievement : <span className="dev-info">{achievement}</span> </h6>
          <h6> Experience Year : <span className="dev-info">{experienceYear}</span> </h6>
          <h6> Country : <span className="dev-info">{country}</span> </h6>
-         <h6> Sellery : <span className="dev-info">{sellery}</span> </h6>
+         <h6> Salary : <span className="dev-info">{salary}</span> </h6>
          <div className="text-center"><button onClick={()=>props.handleAddDeveloper(props.developer)} className="btn btn-primary mt-3 add-btn">{cartIcon} Add To Cart</button></div>
         </div>
       </div>

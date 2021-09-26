@@ -2,7 +2,7 @@
          {
            "key": "B002RL8IYK",
            "name": "Donald Ervin",
-           "sellery": 86000000,
+           "salary": 86000000,
            "achievement": "Turing Award",
            "experienceYear": 10,
            "country": "America",
@@ -11,7 +11,7 @@
          {
            "key": "B01LZ2WZGH",
            "name": "Guido van",
-           "sellery": 76000000,
+           "salary": 76000000,
            "achievement": "NLUUG Award",
            "experienceYear": 9,
            "country": "USA",
@@ -20,7 +20,7 @@
          {
            "key": "B01K1IO3QW",
            "name": "James Arthur",
-           "sellery": 91000000,
+           "salary": 91000000,
            "achievement": "Neumann Medal",
            "experienceYear": 10,
            "country": "North America",
@@ -29,7 +29,7 @@
          {
            "key": "B01LD4MGY4",
            "name": "Alan Curtis",
-           "sellery": 120000000,
+           "salary": 120000000,
            "achievement": "UPE Abacus Award",
            "experienceYear": 10,
            "country": "America",
@@ -38,7 +38,7 @@
          {
            "key": "B01M18UZF5",
            "name": "John George",
-           "sellery": 89000000,
+           "salary": 89000000,
            "achievement": " Pioneer Award",
            "experienceYear": 12,
            "country": "France",
@@ -47,7 +47,7 @@
          {
            "key": "B01DBGVB7K",
            "name": "Brian Kernighan",
-           "sellery": 98000000,
+           "salary": 98000000,
            "achievement": "Turing Award",
            "experienceYear": 11,
            "country": "Norway",
@@ -56,7 +56,7 @@
          {
            "key": "B06Y4GZS9C",
            "name": "Tim Berners",
-           "sellery": 97000000,
+           "salary": 97000000,
            "achievement": "Pride of Britain",
            "experienceYear": 12,
            "country": "America",
@@ -65,7 +65,7 @@
          {
            "key": "B06XJJG4PD",
            "name": "Bjarne Stroustrup",
-           "sellery": 85000000,
+           "salary": 85000000,
            "achievement": "William Procter",
            "experienceYear": 14,
            "country": "Switzerland",
@@ -74,7 +74,7 @@
          {
            "key": "B01NBE6Y5D",
            "name": "Linus Torvalds",
-           "sellery": 140000000,
+           "salary": 140000000,
            "achievement": "Pioneer Award",
            "experienceYear": 12,
            "country": "America",
@@ -83,7 +83,7 @@
          {
            "key": "B01J42JPJG",
            "name": "John Carmack",
-           "sellery": 94000000,
+           "salary": 94000000,
            "achievement": "National Academy",
            "experienceYear": 10,
            "country": "America",
@@ -92,7 +92,7 @@
          {
            "key": "B01J42JPJG",
            "name": "David Patterson",
-           "sellery": 71000000,
+           "salary": 71000000,
            "achievement": "Karl Karlstrom",
            "experienceYear": 14,
            "country": "America",
@@ -101,7 +101,7 @@
          {
            "key": "B01J42JPJG",
            "name": "Ken Thompson",
-           "sellery": 54000000,
+           "salary": 54000000,
            "achievement": "Emanuel R. Piore Award",
            "experienceYear": 17,
            "country": "England",
