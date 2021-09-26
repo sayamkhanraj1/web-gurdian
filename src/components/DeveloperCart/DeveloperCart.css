@@ -3,3 +3,13 @@
          padding: 40px;
          border-radius: 10px;
 }
+.cart-img{
+         width: 110px;
+         clip-path: circle();
+}
+.cart-style{
+         box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+         background-color: #ddd;
+         color: black;
+         border-radius: 10px;
+}

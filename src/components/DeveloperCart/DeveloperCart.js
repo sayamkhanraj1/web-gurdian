@@ -23,7 +23,19 @@ const DeveloperCart = (props) => {
                            <hr className="lineStyle"/>
                            <ul>
                                     {
-                                    developerCart.map(cart => <li className="fw-bold">{cart.name}</li>)
+                                    developerCart.map(cart => <div class="card mb-3 cart-style">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img className="cart-img" src={cart.img} alt="..."/>
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <p class="card-title text-center fw-bold">{cart.name}</p>
+                                          <p class="card-title text-center fw-bold">{cart.achievement}</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>)
                                     }
                            </ul>
                   </div>
