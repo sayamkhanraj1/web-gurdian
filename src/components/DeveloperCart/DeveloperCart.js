@@ -9,8 +9,9 @@ const DeveloperCart = (props) => {
          const totalIcon = <FontAwesomeIcon icon={faDollarSign} />
 
          // Total calculation 
-         const totalCost = (previousValue, currectValue) => previousValue + currectValue.sellery;
+         const totalCost = (previousValue, currectValue) => previousValue + currectValue.salary;
          const total = developerCart.reduce(totalCost, 0)
+         console.log(total)
 
          return (
                   <div>
