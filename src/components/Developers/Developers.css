@@ -1,6 +1,11 @@
 .card-img{
          height: 170px;
+         clip-path: circle();
+         margin-top: 10px;
 }
 .dev-info{
          font-weight: 400;
+}
+.card-style{
+         background-color: #faf4f3;
 }

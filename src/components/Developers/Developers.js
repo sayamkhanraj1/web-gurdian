@@ -1,20 +1,24 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Developers.css'
 
+
 const Developers = (props) => {
-         console.log(props.developer)
          const {name, sellery, img, experienceYear, achievement, country} = props.developer || {};
+         // react font awesome 
+         const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />
          return (
     <div className="col-md-4 mt-4 mb-3">
-         <div className="card h-100">
+         <div className="card h-100 card-style">
          <img className="card-img" src={img} alt="..."/>
          <div className="card-body">
-         <h5 className="card-title text-center"> {name} </h5>
+         <h5 className="card-title text-center fw-bold fs-4"> {name} </h5>
          <h6> Achievement : <span className="dev-info">{achievement}</span> </h6>
          <h6> Experience Year : <span className="dev-info">{experienceYear}</span> </h6>
          <h6> Country : <span className="dev-info">{country}</span> </h6>
          <h6> Sellery : <span className="dev-info">{sellery}</span> </h6>
-         <div className="text-center"><button className="btn btn-primary mt-3 add-btn">Add To Cart</button></div>
+         <div className="text-center"><button onClick={()=>props.handleAddDeveloper(props.developer)} className="btn btn-primary mt-3 add-btn">{cartIcon} Add To Cart</button></div>
         </div>
       </div>
     </div>

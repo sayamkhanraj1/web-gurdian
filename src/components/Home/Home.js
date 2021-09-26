@@ -5,6 +5,15 @@ import Developers from '../Developers/Developers';
 const Home = () => {
          const [developers, setDevelopers] = useState([]);
 
+         // cart calculation state
+         const [developerCart, setDeveloperCart] = useState([]);
+         // cart event handler
+         const handleAddDeveloper = developer =>{
+                  const addedDeveloper = [...developerCart, developer];
+                  console.log(addedDeveloper)
+                  setDeveloperCart(addedDeveloper);
+         }
+
          useEffect(()=>{
                   fetch('/developers.JSON')
                   .then(res => res.json())
@@ -19,13 +28,16 @@ const Home = () => {
                                     developers.map(developer => <Developers
                                     key ={developer.key}
                                     developer={developer}
+                                    handleAddDeveloper={handleAddDeveloper}
                                     ></Developers>)
                                     }
                                     </div>
                                     </div>
 
-                                    <div className="col-md-3">
-                                    <DeveloperCart></DeveloperCart>
+                                    <div className="col-md-3 mt-4">
+                                    <DeveloperCart
+                                    developerCart={developerCart}
+                                    ></DeveloperCart>
                                     </div>
 
                            </div>
